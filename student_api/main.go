@@ -10,15 +10,15 @@ import (
 //Student struct
 type Student struct {
 	Name   string `json:"name"`
-	Rollno string `json:rollno.`
-	Marks  *Mark  `json:marks`
+	Rollno string `json:"rollno."`
+	Marks  *Mark  `json:"marks"`
 }
 
 //Mark struct
 type Mark struct {
-	Maths     string `json:maths`
-	Chemistry string `json:chemistry`
-	Physics   string `json:physics`
+	Maths     string `json:"maths"`
+	Chemistry string `json:"chemistry"`
+	Physics   string `json:"physics"`
 }
 
 //Init student var as a slice Student struct
